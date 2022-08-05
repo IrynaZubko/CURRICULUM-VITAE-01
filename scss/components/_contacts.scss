@@ -1,0 +1,7 @@
+.contacts {
+    margin-bottom: 40px;
+}
+
+.contacts__title {
+    @extend %sidebar__title;
+}

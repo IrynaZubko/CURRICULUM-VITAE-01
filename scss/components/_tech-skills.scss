@@ -1,0 +1,21 @@
+.tech-skills {
+    margin-bottom: 40px;
+}
+
+.tech-skills__title {
+    @extend %sidebar__title;
+}
+
+.tech-skills__list {
+    @extend %skills-list;
+}
+
+.tech-skills__item {
+    &:not(:last-child) {
+        margin-bottom: 4px;
+    }
+}
+
+.tech-skills__text {
+    @extend %sidebar-text;
+}

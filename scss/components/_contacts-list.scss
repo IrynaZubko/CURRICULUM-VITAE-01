@@ -1,0 +1,20 @@
+.contacts-list {
+    list-style: none;
+}
+
+.contacts-list__item {
+    @extend %sidebar-text;
+}
+
+.contacts-list__item-type {
+    margin-right: 5px;
+}
+
+.contacts-list__link {
+    color: inherit;
+    opacity: 0.5;
+}
+
+.contacts-list__link--unstressed {
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+.sidebar {
+    padding-top: 40px;
+    background-color: getColor('secondary-background');
+    
+    color: getColor('primary-white');
+    
+    @media screen and (min-width: $desktop) {
+        width: 370px;
+    }
+}
+
+.sidebar__my-photo {
+    @extend %image;
+}
+
+.sidebar__row {
+    padding-left: 40px;
+    padding-top: 50px;
+}

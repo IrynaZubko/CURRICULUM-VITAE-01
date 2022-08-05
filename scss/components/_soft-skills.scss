@@ -1,0 +1,17 @@
+.soft-skills__title {
+    @extend %sidebar__title;
+}
+
+.soft-skills__list {
+    @extend %skills-list;
+}
+
+.soft-skills__item {
+    &:not(:last-child) {
+        margin-bottom: 4px;
+    }
+}
+
+.soft-skills__text {
+    @extend %sidebar-text;
+}
