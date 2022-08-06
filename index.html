@@ -12,70 +12,167 @@
     <title>Curriculum vitae</title>
 </head>
 <body>
-    <aside class="sidebar">
-        <img src="./images/photo.jpg" alt="Iryna Zubko" class="sidebar__my-photo">
-        <div class="sidebar__row">
-            <div class="contacts">
-                <h2 class="contacts__title">Contacts</h2>
-                <ul class="contacts-list">
-                    <li class="contacts-list__item">
-                        <span class="contacts-list__item-type">C:</span>
-                        <a href="tel:+380973260605" class="contacts-list__link contacts-list__link--unstressed">+38 (097)-326-06-05</a>
-                    </li>
-                    <li class="contacts-list__item">
-                        <span class="contacts-list__item-type">E:</span>
-                        <a href="mailto:irinazubko.ntu@gmail.com" class="contacts-list__link">irinazubko.ntu@gmail.com</a>
-                    </li>
-                </ul>
+    <main>
+        <aside class="sidebar">
+            <img src="./images/photo.jpg" alt="Iryna Zubko" class="sidebar__my-photo">
+            <div class="sidebar__row">
+                <div class="contacts">
+                    <h2 class="contacts__title">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li class="contacts-list__item">
+                            <span class="contacts-list__item-type">C:</span>
+                            <a href="tel:+380973260605" class="contacts-list__link contacts-list__link--unstressed">+38
+                                (097)-326-06-05</a>
+                        </li>
+                        <li class="contacts-list__item">
+                            <span class="contacts-list__item-type">E:</span>
+                            <a href="mailto:irinazubko.ntu@gmail.com" class="contacts-list__link">irinazubko.ntu@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tech-skills">
+                    <h2 class="tech-skills__title">Tech Skills</h2>
+                    <ul class="tech-skills__list">
+                        <li class="tech-skills__item">
+                            <span class="tech-skills__text">HTML5</span>
+                        </li>
+                        <li class="tech-skills__item">
+                            <span class="tech-skills__text">CSS3</span>
+                        </li>
+                        <!-- <li class="tech-skills__item">
+                                <span class="tech-skills__text">GIT</span>
+                            </li>
+                            <li class="tech-skills__item">
+                                <span class="tech-skills__text">WebPack</span>
+                            </li>
+                            <li class="tech-skills__item">
+                                <span class="tech-skills__text">JavaScript</span>
+                            </li>
+                            <li class="tech-skills__item">
+                                <span class="tech-skills__text">React.js</span>
+                            </li>
+                            <li class="tech-skills__item">
+                                <span class="tech-skills__text">Node.js</span>
+                            </li> -->
+                    </ul>
+                </div>
+                <div class="soft-skills">
+                    <h2 class="soft-skills__title">Soft Skills</h2>
+                    <ul class="soft-skills__list">
+                        <li class="soft-skills__item">
+                            <span class="soft-skills__text">GTD</span>
+                        </li>
+                        <li class="soft-skills__item">
+                            <span class="soft-skills__text">Honest</span>
+                        </li>
+                        <li class="soft-skills__item">
+                            <span class="soft-skills__text">Punctual</span>
+                        </li>
+                        <li class="soft-skills__item">
+                            <span class="soft-skills__text">Attentiveness</span>
+                        </li>
+                        <li class="soft-skills__item">
+                            <span class="soft-skills__text">Teamwork</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="tech-skills">
-                <h2 class="tech-skills__title">Tech Skills</h2>
-                <ul class="tech-skills__list">
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">HTML5</span>
-                    </li>
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">CSS3</span>
-                    </li>
-                    <!-- <li class="tech-skills__item">
-                        <span class="tech-skills__text">GIT</span>
-                    </li>
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">WebPack</span>
-                    </li>
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">JavaScript</span>
-                    </li>
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">React.js</span>
-                    </li>
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">Node.js</span>
-                    </li> -->
-                </ul>
-            </div>
-            <div class="soft-skills">
-                <h2 class="soft-skills__title">Soft Skills</h2>
-                <ul class="soft-skills__list">
-                    <li class="soft-skills__item">
-                        <span class="soft-skills__text">GTD</span>
-                    </li>
-                    <li class="soft-skills__item">
-                        <span class="soft-skills__text">Honest</span>
-                    </li>
-                    <li class="soft-skills__item">
-                        <span class="soft-skills__text">Punctual</span>
-                    </li>
-                    <li class="soft-skills__item">
-                        <span class="soft-skills__text">Attentiveness</span>
-                    </li>
-                    <li class="soft-skills__item">
-                        <span class="soft-skills__text">Teamwork</span>
-                    </li>
-                </ul>
-            </div>
-            
+        </aside>
+        <div class="main-content">
+            <!-- About user -->
+            <section class="section">
+                <div class="about-user__container">
+                    <h1 class="about-user__job-title">Full Stack Developer</h1>
+                    <h2 class="about-user__name">Iryna Zubko</h2>
+                    <p class="about-user__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam
+                        eligendi at eos, aperiam voluptatum ullam nihil distinctio numquam, quis soluta quo maiores nemo! Sed.</p>
+                </div>
+            </section>
+            <!-- Projects -->
+            <section class="section">
+                <div class="container">
+                    <h3 class="projects__title">Projects</h3>
+                    <ol class="projects__list">
+                        <li class="projects__item">
+                            <a href="https://irynazubko.github.io/goit-markup-hw-08/" class="projects__link" target="_blank"
+                                rel="noreferrer noopener nofollow">
+                                https://irynazubko.github.io/goit-markup-hw-08/
+                                <span class="projects__dots">........</span>
+                                <span class="projects__bracket">[</span>
+                                HTML5, CSS3
+                                <span class="projects__bracket">]</span>
+                            </a>
+                        </li>
+                        <!-- <li class="projects__item">
+                            <a href="https://irynazubko.github.io/goit-markup-hw-08/" class="projects__link">
+                                https://irynazubko.github.io/goit-markup-hw-08/
+                                <span class="projects__dots">........</span>
+                                <span class="projects__bracket">[</span>
+                                JavaScript
+                                <span class="projects__bracket">]</span>
+                            </a>
+                        </li>
+                        <li class="projects__item">
+                            <a href="https://irynazubko.github.io/goit-markup-hw-08/" class="projects__link">
+                                https://irynazubko.github.io/goit-markup-hw-08/
+                                <span class="projects__dots">........</span>
+                                <span class="projects__bracket">[</span>
+                                React.js, Node.js
+                                <span class="projects__bracket">]</span>
+                            </a>
+                        </li> -->
+                    </ol>
+                </div>
+            </section>
+            <!-- Work experience -->
+            <section class="section">
+                <div class="container">
+                    <h3 class="work-experience__title">Work Experience</h3>
+                    <!-- Company 1 -->
+                    <div class="company">
+                        <h4 class="company__title">
+                            Road design engineer
+                            <span class="company__organization">«YEVRO STROY PROYEKT», LLC</span>
+                        </h4>
+                        <p class="company__period">February 2018 - up to now <span class="company__line">|</span> Kyiv, Ukraine</p>
+                        <ul class="company__list">
+                            <li class="company__item">Road design.</li>
+                            <li class="company__item">Project design.</li>
+                            <li class="company__item">Processing of engineering-geological and engineering-geodetic surveys.</li>
+                            <li class="company__item">Conducting feasibility studies.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- Education -->
+            <section class="section">
+                <div class="container">
+                    <h3 class="education__title">Education</h3>
+                    <!-- Courses -->
+                    <div class="education__institution">
+                        <h4 class="education__name">LLC GO IT Company</h4>
+                        <!-- ТОВ "ГОУ АЙТІ КОМПАНІЯ" -->
+                        <h5 class="education__specialization">Full Stack Development</h5>
+                        <p class="education__period">May 2022 - up to now <span class="education__line">|</span> Kiev, Ukraine</p>
+                    </div>
+                    <!-- University -->
+                    <div class="education__institution">
+                        <h4 class="education__name">National Transport University</h4>
+                        <h5 class="education__specialization">The department of transport construction; specialization – building of
+                            roads and airfields.</h5>
+                        <p class="education__period">September 2012 - January 2018 <span class="education__line">|</span> Kiev,
+                            Ukraine</p>
+                    </div>
+                    <!-- School -->
+                    <div class="education__institution">
+                        <h4 class="education__name">Secondary school №8</h4>
+                        <h5 class="education__specialization">General Certificate of Secondary Education</h5>
+                        <p class="education__period">September 2001 - May 2012 <span class="education__line">|</span> Kiev, Ukraine
+                        </p>
+                    </div>
+                </div>
+            </section>
         </div>
-    </aside>
+    </main>
 </body>
 </html>

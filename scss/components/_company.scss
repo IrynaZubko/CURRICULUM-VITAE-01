@@ -1,0 +1,31 @@
+.company {
+    &:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}
+
+.company__title {
+    @extend %secondary-title;
+}
+
+.company__organization {
+    color: getColor('accent-orange');
+}
+
+.company__period {
+    @extend %period;
+}
+
+.company__line {
+    color: getColor('secondary-text');
+}
+
+.company__list {
+    margin-left: 20px;
+}
+
+.company__item {
+    &:not(:last-child) {
+        margin-bottom: 4px;
+    }
+}

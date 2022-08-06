@@ -1,0 +1,29 @@
+.education__title {
+    @extend %title;
+}
+
+.education__institution {
+    &:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}
+
+.education__name {
+    @extend %secondary-title;
+    color: getColor('accent-orange');
+}
+
+.education__specialization {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    color: getColor('secondary-text');
+}
+
+.education__period {
+    @extend %period;
+}
+.education__line {
+    color: getColor('secondary-text');
+}
