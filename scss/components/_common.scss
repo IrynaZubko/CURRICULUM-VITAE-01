@@ -1,19 +1,9 @@
 body {
+    padding: 40px 20px;
     font-family: 'Montserrat', sans-serif;
     color: getColor('main-text');
-}
 
-main {
-    padding: 40px;
-
-    background-color: getColor('accent-background');
-    
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-
-    @media screen and (min-width: $desktop) {
-        display: flex;
-        justify-content: center;
-    }
+    background: getColor('accent-background');
 }
 
 h1,
@@ -35,8 +25,20 @@ p {
     margin: 0;
 }
 
+.wrapper {
+    margin: 0 auto;
+    max-width: $desktop;
+
+    background-color: getColor('primary-white');
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+
+    @media screen and (min-width: $tablet) {
+        display: flex;
+    }
+}
+
 .container {
-    @media screen and (min-width: $desktop) {
+    @media screen and (min-width: $tablet) {
         max-width: 600px;
     }
 }

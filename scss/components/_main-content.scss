@@ -1,4 +1,10 @@
 .main-content {
-    padding: 80px;
-    background-color: getColor('primary-white');
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 90px;
+    padding-right: 50px;
+
+    @media screen and (max-width: calc($tablet - 1px)) {
+        padding: 25px;
+    }
 }

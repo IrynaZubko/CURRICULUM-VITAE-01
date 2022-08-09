@@ -1,11 +1,15 @@
 %image {
     display: block;
-    max-width: 100%;
     width: 100%;
     height: auto;
 
-    @media screen and (min-width: $desktop) {
-        min-width: 370px;
+    @media screen and (min-width: calc($mobile + 1px)) and (max-width: calc($tablet - 1px)) {
+        width: 50%;
+        height: 100%;
+    }
+
+    @media screen and (min-width: $tablet) {
+        width: 370px;
     }
 }
 
@@ -33,21 +37,28 @@
     margin-bottom: 10px;
     
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.2;
     color: getColor('secondary-text');
+
+    @media screen and (min-width: $tablet) {
+        font-size: 22px;
+    }
 }
 
 %secondary-title {
     margin-bottom: 10px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.25;
     color: getColor('secondary-text');
+
+    @media screen and (min-width: $tablet) {
+        font-size: 16px;
+    }
 }
 
 %period {
-    margin-bottom: 8px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.25;

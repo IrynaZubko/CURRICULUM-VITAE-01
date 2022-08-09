@@ -1,10 +1,15 @@
 .sidebar {
     padding-top: 40px;
+    padding-bottom: 40px;
     background-color: getColor('secondary-background');
     
     color: getColor('primary-white');
+
+    @media screen and (min-width: calc($mobile + 1px)) and (max-width: calc($tablet - 1px)) {
+        display: flex;
+    }
     
-    @media screen and (min-width: $desktop) {
+    @media screen and (min-width: $tablet) {
         width: 370px;
     }
 }
@@ -14,5 +19,14 @@
 }
 
 .sidebar__row {
-    padding: 50px 20px;
+    width: 100%;
+    padding: 20px 20px 0 20px;
+
+    @media screen and (min-width: calc($mobile + 1px)) and (max-width: calc($tablet - 1px)) {
+        padding-top: 0;
+    }
+
+    @media screen and (min-width: $tablet) {
+        padding: 50px 20px;
+    }
 }

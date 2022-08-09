@@ -14,6 +14,7 @@
 
 .company__period {
     @extend %period;
+    margin-bottom: 8px;
 }
 
 .company__line {
@@ -25,7 +26,14 @@
 }
 
 .company__item {
+    font-size: 14px;
+    line-height: 1.2;
+
     &:not(:last-child) {
         margin-bottom: 4px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        line-height: 1.71;
     }
 }

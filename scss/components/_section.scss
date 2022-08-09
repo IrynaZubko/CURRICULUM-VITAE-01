@@ -1,6 +1,9 @@
 .section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
-    // background-color: aquamarine;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    @media screen and (min-width: $tablet) {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
 }
